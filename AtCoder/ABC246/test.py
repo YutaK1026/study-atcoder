@@ -1,7 +1,4 @@
-from pickle import FALSE
-from queue import Empty
-
-
-key = input()
-if key:
-    print(key)
+A = list(map(int, input().split()))
+X = int(input())
+Q = sum(x // X for x in A)
+print(Q)
