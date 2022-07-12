@@ -1,0 +1,15 @@
+#sをlist型で受け取るとき
+s = input().split()
+
+#A,B,Cを、文字列として受け取る時
+A, B, C = input().split()
+
+#A,Bを、整数を受け取るとき
+A, B = map(int, input().split())
+
+#任意の数を受け取る
+l = list(map(int, input().split()))
+
+#N回改行する標準入力
+S = [input() for _ in range(N)]
+
